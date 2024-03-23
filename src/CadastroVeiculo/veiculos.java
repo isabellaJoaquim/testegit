@@ -1,4 +1,4 @@
-package Cadastroveiculos;
+package CadastroVeiculo;
 
 public class veiculos {
 

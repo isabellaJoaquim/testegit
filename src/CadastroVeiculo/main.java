@@ -1,4 +1,4 @@
-package Cadastroveiculos;
+package CadastroVeiculo;
 
 import java.util.Scanner;
 
