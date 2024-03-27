@@ -2,9 +2,9 @@ package Contabancaria;
 
 public class ContaBancaria {
 
-    public int numeroDaConta;
-    public String nomeDoTitular;
-    public double saldo;
+    int numeroDaConta;
+    String nomeDoTitular;
+    double saldo;
 
     public void ContaBancaria(int numeroDaConta, String nomeDoTitular, double saldo){
         this.numeroDaConta=numeroDaConta;
@@ -24,5 +24,11 @@ public class ContaBancaria {
     }
     public void exibirSaldo(){
         System.out.println("Novo saldo: " + this.saldo);
+    }
+    public double getSaldo(){
+        return saldo;
+    }
+    public void setSaldo(double saldo){
+        this.saldo=saldo;
     }
 }

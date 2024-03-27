@@ -1,8 +1,9 @@
 package Pessoa;
 
 public class pessoa {
-    private String nome;
-    private int idade;
+    public String nome;
+    public int idade;
+    public String Cpf;
 
     public String getNome() {
         return nome;
@@ -17,9 +18,16 @@ public class pessoa {
     public void setIdade(int novaIdade) {
         idade = novaIdade;
     }
+    public String getCpf(){
+        return Cpf;
+    }
+    public void setCpf(String novoCpf){
+        Cpf = novoCpf;
+    }
 
-    public pessoa(String nome, int idade) {
+    public pessoa(String nome, int idade, String cpf) {
         this.nome = nome;
         this.idade = idade;
+        this.Cpf=cpf;
     }
 }
